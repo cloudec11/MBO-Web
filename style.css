@@ -1,0 +1,198 @@
+:root {
+  --1-dark: #17477f;
+  --1-light: #5990a1;
+  --accent: #d13d51;
+  --2-dark: #b9bcce;
+  --2-light: #e1e2eb;
+  --black: #2f2d2e;
+  --white: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=League+Spartan:300,400,500,600,700,800,900$display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  overflow: x;
+  font-family: "League Spartan", sans-serif;
+}
+
+/* Navbar */
+.navbar li,
+.navbar a,
+button {
+  font-size: 16px;
+  color: var(--2-dark);
+}
+
+#active {
+  color: var(--white);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 7%;
+  background-color: #17477f;
+}
+
+.nav_links {
+  list-style: none;
+  font-weight: 700;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0rem 0.2rem;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.nav_links li a:hover {
+  color: var(--2-light);
+  font-size: 18px;
+  background-color: rgba(185, 188, 206, 0.3);
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border-radius: 5rem;
+  border-style: solid;
+  border-color: var(--2-light);
+  transition: all 0.3s ease 0s;
+  color: var(--2-light);
+  background-color: #17477f;
+  font-weight: 700;
+}
+
+button:hover {
+  color: var(--1-dark);
+  border-color: var(--2-light);
+  background-color: var(--2-light);
+  cursor: pointer;
+}
+
+.logo img {
+  width: 5rem;
+}
+
+/* hamburger menu stuff */
+.hamburger_menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 2rem;
+  height: 0.2rem;
+  margin: 0.4rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--2-light);
+}
+
+@media (max-width: 890px) {
+  .hamburger_menu {
+    display: block;
+  }
+
+  .nav_links {
+    display: none;
+  }
+}
+
+/* Events */
+
+body {
+  background: #17477f;
+  width: 100%;
+  height: 100%;
+}
+
+.current {
+  font-weight: bold;
+}
+.section1 {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  border-top: 4px dotted white;
+}
+:root {
+  --imgheight: 360px;
+  --imgwidth: 360px;
+}
+.section1 img {
+  padding-top: 0%;
+  padding-right: 10px;
+  float: left;
+  height: var(--imgheight);
+  width: var(--imgwidth);
+}
+.section1 p {
+  background-color: #5990a1;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-top: calc(var(--imgheight) / 3);
+  margin-left: var(--imgwidth);
+  overflow-clip-margin: auto;
+  perspective: 1px;
+}
+.section2 p {
+  font-family: "Open Sans", sans-serif;
+  background-color: #5990a1;
+  border: 3px solid white;
+  color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  overflow-clip-margin: auto;
+  margin-bottom: 45px;
+}
+
+.section3 img {
+  padding-top: 0%;
+  padding-right: 10px;
+  float: right;
+  height: var(--imgheight);
+  width: var(--imgwidth);
+}
+.section3 {
+  border-top: 4px dotted white;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding-top: 35px;
+  overflow-clip-margin: auto;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.section3 p {
+  margin-top: calc(var(--imgheight) / 3);
+}
+.section4 img {
+  padding-top: 0%;
+  padding-right: 10px;
+  float: left;
+  height: var(--imgheight);
+  width: var(--imgwidth);
+}
+.section4 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding-top: 35px;
+  overflow-clip-margin: auto;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.section4 p {
+  margin-top: calc(var(--imgheight) / 3);
+}
