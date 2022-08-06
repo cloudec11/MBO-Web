@@ -15,8 +15,6 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  overflow: x;
-  font-family: "League Spartan", sans-serif;
 }
 
 /* Navbar */
@@ -32,6 +30,7 @@ button {
 }
 
 .navbar {
+  font-family: "League Spartan", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,8 +113,6 @@ button:hover {
 
 body {
   background: #17477f;
-  width: 100%;
-  height: 100%;
 }
 
 .current {
@@ -125,6 +122,8 @@ body {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   border-top: 4px dotted white;
+  margin-top: 5px;
+  padding-top: 3px;
 }
 :root {
   --imgheight: 360px;
@@ -138,6 +137,7 @@ body {
   width: var(--imgwidth);
 }
 .section1 p {
+  font-family: "Open Sans", sans-serif;
   background-color: #5990a1;
   color: white;
   border: 3px solid white;
@@ -145,6 +145,7 @@ body {
   padding-left: 10px;
   margin-top: calc(var(--imgheight) / 3);
   margin-left: var(--imgwidth);
+  margin-right: 3px;
   overflow-clip-margin: auto;
   perspective: 1px;
 }
@@ -157,6 +158,8 @@ body {
   padding-left: 10px;
   overflow-clip-margin: auto;
   margin-bottom: 45px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .section3 img {
@@ -174,6 +177,7 @@ body {
   overflow-clip-margin: auto;
   margin-bottom: 15px;
   display: inline-block;
+  margin-left: 3px;
 }
 .section3 p {
   margin-top: calc(var(--imgheight) / 3);
@@ -195,4 +199,101 @@ body {
 }
 .section4 p {
   margin-top: calc(var(--imgheight) / 3);
+}
+.section5 {
+  padding-left: 200px;
+}
+.past-comp {
+  padding-left: 100px;
+}
+#img1 {
+  float: left;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+#img2 {
+  padding: 0;
+  position: absolute;
+  top: 1830px;
+  left: 120px;
+}
+#img3 {
+  position: absolute;
+  top: 2180px;
+  left: 180px;
+}
+.bottom2 {
+  margin-top: 130px;
+  margin-left: -100px;
+}
+#img5 {
+  padding-left: 200px;
+}
+.meet h1 {
+  font-size: 60px;
+  margin: 20px;
+  padding-top: 5px;
+  font-family: "League Spartan", sans-serif;
+  color: white;
+  background-color: #d13d51;
+}
+.column {
+  margin: 10px;
+  text-align: center;
+  float: left;
+  width: 23.2%;
+  background-color: #b9bcce;
+  border-radius: 20px;
+  color: white;
+}
+.column h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.column p {
+  font-family: "Open Sans Light", sans-serif;
+}
+.columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columns {
+  margin-left: 24px;
+}
+.column2 {
+  margin: 10px;
+  margin-left: 120px;
+  text-align: center;
+  float: left;
+  width: 23%;
+  background-color: #b9bcce;
+  border-radius: 20px;
+  color: white;
+}
+.column2 h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.column2 p {
+  font-family: "Open Sans Light", sans-serif;
+}
+.column3 {
+  margin: 10px;
+  padding-top: 20px;
+  margin-left: 25%;
+  text-align: center;
+  float: left;
+  width: 23%;
+  background-color: #b9bcce;
+  border-radius: 20px;
+  color: white;
+}
+.column3 h2 {
+  font-family: "Open Sans", sans-serif;
+}
+.column3 p {
+  font-family: "Open Sans Light", sans-serif;
+}
+.last {
+  margin-left: 20px;
 }
