@@ -121,17 +121,18 @@ body {
 .section1 {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
-  border-top: 4px dotted white;
   margin-top: 5px;
   padding-top: 3px;
+  padding-bottom: 60px;
 }
 :root {
-  --imgheight: 360px;
-  --imgwidth: 360px;
+  --imgheight: 500px;
+  --imgwidth: 500px;
 }
 .section1 img {
   padding-top: 0%;
   padding-right: 10px;
+  margin-left: 165px;
   float: left;
   height: var(--imgheight);
   width: var(--imgwidth);
@@ -143,9 +144,9 @@ body {
   border: 3px solid white;
   border-radius: 10px;
   padding-left: 10px;
-  margin-top: calc(var(--imgheight) / 3);
   margin-left: var(--imgwidth);
-  margin-right: 3px;
+  margin-right: 30%;
+  margin-left: 40%;
   overflow-clip-margin: auto;
   perspective: 1px;
 }
@@ -157,48 +158,70 @@ body {
   border-radius: 10px;
   padding-left: 10px;
   overflow-clip-margin: auto;
-  margin-bottom: 45px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  margin-right: 30%;
+  margin-top: 10px;
+  position: absolute;
+  top: 48%;
 }
-
+.graphs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .section3 img {
   padding-top: 0%;
   padding-right: 10px;
-  float: right;
-  height: var(--imgheight);
-  width: var(--imgwidth);
+  float: left;
+  height: calc(var(--imgheight) / 2);
+  width: calc(var(--imgwidth) / 2);
+}
+.graphs {
+  padding-bottom: 35px;
+  padding-left: 100px;
 }
 .section3 {
-  border-top: 4px dotted white;
   font-family: "Open Sans", sans-serif;
   color: white;
-  padding-top: 35px;
+
   overflow-clip-margin: auto;
   margin-bottom: 15px;
-  display: inline-block;
-  margin-left: 3px;
+  float: left;
+
+  margin-top: 25px;
+  width: 45%;
 }
 .section3 p {
-  margin-top: calc(var(--imgheight) / 3);
+  margin-right: 1px;
+  background-color: #b9bcce;
+  margin-left: calc(var(--imgwidth) / 2);
+  padding-left: 10px;
+  border-radius: 15px;
+}
+.section4 p {
+  margin-right: 11px;
+  background-color: #b9bcce;
+  margin-left: calc(var(--imgwidth) / 2);
+  padding-left: 10px;
+  border-radius: 15px;
 }
 .section4 img {
   padding-top: 0%;
-  padding-right: 10px;
+  padding-right: 20px;
   float: left;
-  height: var(--imgheight);
-  width: var(--imgwidth);
+  height: calc(var(--imgheight) / 2);
+  width: calc(var(--imgwidth) / 2);
 }
 .section4 {
   font-family: "Open Sans", sans-serif;
   color: white;
-  padding-top: 35px;
+  padding-top: 25px;
+  margin-left: 10px;
   overflow-clip-margin: auto;
   margin-bottom: 15px;
-  display: inline-block;
-}
-.section4 p {
-  margin-top: calc(var(--imgheight) / 3);
+  float: left;
+  width: 40%;
 }
 .section5 {
   padding-left: 200px;
@@ -215,12 +238,12 @@ body {
 #img2 {
   padding: 0;
   position: absolute;
-  top: 1830px;
+  top: 1410px;
   left: 120px;
 }
 #img3 {
   position: absolute;
-  top: 2180px;
+  top: 1750px;
   left: 180px;
 }
 .bottom2 {
