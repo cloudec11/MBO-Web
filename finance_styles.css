@@ -121,3 +121,51 @@ body {
   text-align: center;
   text-shadow: 2px 2px #e1e2eb;
 }
+.section1 {
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+.text {
+  background: radial-gradient(
+    ellipse at center,
+    #b9bcce 0%,
+    #b9bcce 70%,
+    rgba(0, 128, 172, 0) 70.3%
+  );
+  height: 100%;
+  width: 100%;
+}
+.text {
+  color: white;
+  position: relative;
+  margin: 0;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+.text h2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 37px;
+  padding-top: 30px;
+  color: #17477f;
+  font-weight: 700;
+}
+.text p {
+  padding-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+}
+.circle1 {
+  margin-left: 20%;
+  margin-top: 50px;
+}
+.circle2 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+}
+.circle3 {
+  position: absolute;
+  left: 20%;
+  top: 85%;
+}
